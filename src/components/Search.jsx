@@ -5,7 +5,6 @@ import styles from '../styles/components/Search.module.scss';
 function Search() {
 const {searchValue,setSearchValue} = useContext(Appcontext);
 const onSearchValueChange = (event) =>{
-    console.log(event.target.value);
     setSearchValue(event.target.value)
 }
 

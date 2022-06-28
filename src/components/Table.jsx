@@ -31,11 +31,11 @@ const Table = ({listTitle}) => {
             <td className={styles.content}>{contact.addres}</td>
             <td className={styles.content}>{contact.email}</td>
             <td  className={styles.icons} data-contact={contact}>
-              <div className="list-edit" data-contac={contact} >
-              <AiOutlineEdit data-contac={contact} onClick={(contact) => onEdit(contact )}/>
+              <div className="list-edit">
+                <AiOutlineEdit  onClick={() => onEdit(contact )}/>
               </div>
               <div className="list-delete">
-                <RiDeleteBin6Line onClick={(contact) =>deleteContact(contact)}/>
+                <RiDeleteBin6Line onClick={() =>deleteContact(contact)}/>
               </div>
             </td>
           </tr>

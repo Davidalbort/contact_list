@@ -18,7 +18,6 @@ const Edit = () => {
   const getAge = (dateBirth) => {
     setFormDateBirth(dateBirth);
     const currentDate = new Date();
-    console.log(formDateBirth);
     const currentAge = parseInt(currentDate.getFullYear());
     const currentMonth = parseInt(currentDate.getMonth())+1;
     const currentDay = parseInt(currentDate.getDate());
@@ -36,7 +35,6 @@ const Edit = () => {
       }
     }
     setFormAge(presentAge);
-    console.log(formAge);
   }
   const onSubmit = (event) => {
     event.preventDefault();

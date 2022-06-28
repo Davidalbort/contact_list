@@ -19,8 +19,6 @@ const useGet = (API) => {
             setLoading(false)
             
         }, 1000);
-        console.log(characters)
-    
 
     },[loading]);
     return {characters,error,setError,setLoading,loading};

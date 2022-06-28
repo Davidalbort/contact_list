@@ -1,6 +1,4 @@
 import React from 'react';
-import { ReactDOM } from 'react';
-
 import { Header } from '../containers/Header';
 import { Search } from '../components/Search';
 import { Contact } from '../containers/Contact';

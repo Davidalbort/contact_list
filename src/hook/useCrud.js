@@ -35,6 +35,7 @@ const useCrud = () => {
     setLoading(true);
     const APIPut = `http://localhost:4000/products/${contact.id}`
     put(APIPut,object);
+    setModalEdit(false);
   }
   const deleteContact = (contact) => {
     setLoading(true);
@@ -57,7 +58,8 @@ const useCrud = () => {
     setFormEdit,
     setModalEdit,
     modalAdd,
-    setModalAdd
+    setModalAdd,
+    editContact
   };
 };
 

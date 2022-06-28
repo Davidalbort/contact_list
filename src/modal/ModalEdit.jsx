@@ -4,7 +4,7 @@ import  ReactDOM  from 'react-dom';
 import { Edit } from '../components/Edit';
 import styles from '../styles/modals/ModalEdit.module.scss';
 
-const ModalEdit = ({children}) => {
+const ModalEdit = () => {
   return ReactDOM.createPortal(
     <div className={styles.container}>
       <Edit/>

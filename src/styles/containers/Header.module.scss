@@ -3,7 +3,7 @@
 .container{
     display: flex;
     flex-direction: column;
-    padding: 0 1rem;
+    padding: 1rem;
     background-color: $background-blue;
     font-size: 1rem;
     color: $primary-white;
@@ -12,6 +12,7 @@
         & > h1{
             display: flex;
             justify-content: center;
+            font-size: 2rem;
         }
         
     }
