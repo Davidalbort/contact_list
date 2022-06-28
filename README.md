@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+# `Introduction`
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ * This project was created with react js, styled with module component formatting and with axios for API request. The styling was created with mobile first in mind, this was done without media query to avoid rewriting the styling code. A server was created on localhost port 4000 to store and simulate the web services in this case the CRUD, the endpoint Api is http://localhost:4000/products.
 
-## Available Scripts
 
-In the project directory, you can run:
+# `Development process`
 
-### `npm start`
+* Read and analyze the documentation (challenge)
+* Learn how to create a server to simulate the consumption of web services.
+*Create the CRUD services for the consumption of the web services and performed functional tests.
+* Sketching the application interface.
+* Creation of components, containers and home page to structure the application with semantic HTML, all this taking into account the Atomic Design methodology.
+* The logic for each of the components was made, also two custom hooks were created, one containing the logic of operation and another that brings the information that the server has, finally a context was created so that all the information is throughout the app.
+*Two modals were created, one for the interface to add contact and another for the option to edit it, this so that there is no stacking and overflow in the DOM.
+* The design was modified taking into account the mobile first, since it was not included in the document, this proposal was taken into account to not use mediaQueri. 
+* Creation of styles for components and containers with style module, without media query and taking into account the mobile first, also placed a horizontal overflow to the table in mobile mode, this in order to have a functional and aesthetic design.
+* Necessary tags were added to have a good SEO performance.
+* Two integration tests were performed, one for the header and one for the add button.
+* Finally the user manual of the application was made.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+-Documentation of the whole path.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Available Scripts
 
-### `npm run build`
+* In the project directory, you can run:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+ ## `Getting Started`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* First type on terminal
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+npm i
+```
 
-### `npm run eject`
+* Second, run the development server:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+npm run dev-db
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+* Open [http://localhost:3000](http://localhost:3000) with your browser to see the result of the App and the store in the [http://localhost:4000](http://localhost:4000/products).
