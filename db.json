@@ -1,13 +1,3 @@
 {
-  "products": [
-    {
-      "email": "rogerdavidalbaortega@gmail.com",
-      "addres": "Av 21b # 12-96",
-      "dateofbirth": "1994-01-24",
-      "age": 28,
-      "phone": "3153030912",
-      "name": "Roger David Alba Ortega",
-      "id": 1
-    }
-  ]
+  "products": []
 }

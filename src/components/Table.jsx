@@ -11,8 +11,10 @@ const Table = ({listTitle}) => {
 		setModalEdit(true);
 		setFormEdit(contact);
 	}
+  console.log(searchContact)
   return (
     <table className={styles.container}>
+      <thead>
         <tr className={styles.title}>
             <th>{listTitle.name}</th>
             <th>{listTitle.age}</th>
@@ -22,6 +24,9 @@ const Table = ({listTitle}) => {
             <th>{listTitle.email}</th>
             <th>{listTitle.actions}</th>
         </tr>
+
+      </thead>
+      <tbody>
         {searchContact && searchContact.map(contact => (
           <tr key={contact.id} className={styles.content}>
             <td className={styles.content}>{contact.name}</td>
@@ -39,7 +44,8 @@ const Table = ({listTitle}) => {
               </div>
             </td>
           </tr>
-        ))}
+        ))}   
+      </tbody>
     </table>
   )
 }

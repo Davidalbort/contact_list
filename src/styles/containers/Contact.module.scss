@@ -4,5 +4,20 @@
     display: flex;
     flex-direction: column;
     overflow-y: auto;
+
+    & > h2 {
+        font-weight: 900;
+        display: flex;
+        justify-content: center;
+        margin-top: 2rem;
+    }
     
+    & > div {
+        & > h2 {
+            font-weight: 900;
+            display: flex;
+            justify-content: center;
+            margin-top: 2rem;
+        }
+    }
 }
