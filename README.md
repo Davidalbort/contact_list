@@ -7,11 +7,11 @@
 
 * Read and analyze the documentation (challenge)
 * Learn how to create a server to simulate the consumption of web services.
-*Create the CRUD services for the consumption of the web services and performed functional tests.
+* Create the CRUD services for the consumption of the web services and performed functional tests.
 * Sketching the application interface.
 * Creation of components, containers and home page to structure the application with semantic HTML, all this taking into account the Atomic Design methodology.
 * The logic for each of the components was made, also two custom hooks were created, one containing the logic of operation and another that brings the information that the server has, finally a context was created so that all the information is throughout the app.
-*Two modals were created, one for the interface to add contact and another for the option to edit it, this so that there is no stacking and overflow in the DOM.
+* Two modals were created, one for the interface to add contact and another for the option to edit it, this so that there is no stacking and overflow in the DOM.
 * The design was modified taking into account the mobile first, since it was not included in the document, this proposal was taken into account to not use mediaQueri. 
 * Creation of styles for components and containers with style module, without media query and taking into account the mobile first, also placed a horizontal overflow to the table in mobile mode, this in order to have a functional and aesthetic design.
 * Necessary tags were added to have a good SEO performance.
